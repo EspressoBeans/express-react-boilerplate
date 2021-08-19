@@ -15,7 +15,7 @@ On the command prompt run the following commands:
 ``` 
  $ git clone https://github.com/Bikranshu/express-react-boilerplate.git
  $ cd express-react-boilerplate
- $ cp .env.example .env (edit it with your secret key and database information)
+ $ cp .env.example .env (edit it with your secret key and database information, for Windows the mysql socket path is not needed, set it to '')
  $ npm install
  $ npm run migrate
  ```
